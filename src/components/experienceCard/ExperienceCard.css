@@ -1,0 +1,367 @@
+.degree-card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-family: "Google Sans Medium";
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.card-subtitle {
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.body-header {
+  max-width: inherit;
+  display: flex;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+}
+
+.body-header-title {
+  align-items: flex-start;
+  width: 80%;
+}
+
+.body-header-duration {
+  width: 20%;
+}
+
+.duration {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  padding-right: 10px;
+  float: right;
+}
+
+.body-content {
+  max-width: inherit;
+  border-radius: 0px 0px 7px 7px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Google Sans Regular";
+}
+
+@media (max-width: 768px) {
+  .degree-card {
+    flex-direction: column;
+  }
+
+  .body-header {
+    flex-direction: column;
+  }
+
+  .body-header-title {
+    width: 100%;
+  }
+
+  .body-header-duration {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .duration {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-subtitle {
+    font-size: 16px;
+  }
+}
+
+
+.cert-card {
+  width: 30%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  flex: 0 0 30%;
+  transition: all 0.2s ease-in-out;
+}
+
+.cert-header {
+  margin: 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.logo_img {
+  margin: 3px;
+  width: auto;
+  height: 100px;
+}
+
+.cert-body {
+  margin: 0px;
+}
+
+.cert-body-title {
+  font-family: "Google Sans Regular";
+  font-size: 20px;
+  margin: 10px;
+}
+
+.cert-body-subtitle {
+  font-family: "Google Sans Regular";
+  font-size: 18px;
+  color: #808080;
+  margin: 10px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Google Sans Regular";
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.fadeIn-top {
+  top: 20%;
+}
+
+@media (max-width: 768px) {
+  .cert-card {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* .experience-card {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-card-logo-div {
+  margin: 10px;
+}
+
+.experience-card-body-div {
+  width: 100%;
+}
+
+.experience-card-header-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-card-logo {
+  width: 70px;
+}
+
+.experience-card-title {
+  font-family: "Google Sans Regular";
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 7px;
+  text-align: left;
+}
+
+.experience-card-company {
+  font-family: "Google Sans Regular";
+  margin: 0;
+  text-align: left;
+}
+
+.experience-card-duration {
+  font-family: "Google Sans Regular";
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: right;
+  color: #8c8c8c;
+}
+
+.experience-card-heading-left {
+  float: left;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.experience-card-heading-right {
+  float: right;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.experience-card-location {
+  font-family: "Google Sans Regular";
+  margin: 0;
+  text-align: right;
+  color: #868e96;
+}
+
+.experience-card-description {
+  margin-top: 5px;
+  margin-left: 10px;
+  text-align: justify;
+  margin-right: 20px;
+  font-family: "Google Sans Regular";
+}
+
+.experience-card-company > a {
+  position: relative;
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+.experience-card-company > a:hover {
+  color: #8c8c8c;
+}
+
+.experience-card-company > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.experience-card-company > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #8c8c8c;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    margin-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .experience-card-logo {
+    width: 100px;
+  }
+
+  .experience-card-body-div {
+  }
+
+  .experience-card-heading-left {
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .experience-card-heading-right {
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .experience-card-title {
+    text-align: center;
+  }
+
+  .experience-card-company {
+    text-align: center;
+  }
+
+  .experience-card-duration {
+    margin-top: 2px;
+    text-align: center;
+  }
+
+  .experience-card-location {
+    /* text-align: left; */
+/* text-align: center;
+}
+
+.experience-card-header-div {
+  flex-direction: column;
+}
+
+.experience-card-description {
+  margin-left: 14px;
+  margin-right: 14px;
+  text-align: justify;
+}
+} */
