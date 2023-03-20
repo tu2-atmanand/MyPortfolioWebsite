@@ -297,7 +297,7 @@ const degrees = {
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "http://www.gvmssnja.org/",
     },
   ],
 };
@@ -550,7 +550,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/harikrushn9",
+    link: "https://twitter.com/AtmanandGauns",
     avatar_image_path: "blogs_image.svg",
   },
 };

@@ -1,7 +1,5 @@
 # PortfolioV2
 
-![PortfolioV2](/images/portfolio1.gif)
-
 ### A clean portfolio template. (Readme will be updated soon)
 
 # Sections
@@ -44,7 +42,6 @@
 
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 
-
 # Technologies used 🛠️
 
 - [React](https://reactjs.org/)
@@ -60,5 +57,5 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 
 # References
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
-Illustrations: https://undraw.co/
+Based on <https://github.com/ashutosh1919/masterPortfolio/> and <https://github.com/saadpasta/developerFolio>
+Illustrations: <https://undraw.co/>
