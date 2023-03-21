@@ -1,3 +1,5 @@
+/*
+
 .education-main {
   width: 100%;
 }
@@ -71,6 +73,7 @@
 }
 
 
+*/
 
 
 
@@ -93,10 +96,10 @@
 
 
 
+/* Original Code : */
 
 
-
-/* .experience-main {
+.experience-main {
   width: 100%;
 }
 
@@ -109,7 +112,7 @@
   display: flex;
 }
 
-.experience-heading-div > * {
+.experience-heading-div>* {
   flex: 1;
 }
 
@@ -122,7 +125,7 @@
   text-align: center;
 }
 
-.experience-heading-img-div > * {
+.experience-heading-img-div>* {
   max-width: 100%;
   height: auto;
 }
@@ -157,6 +160,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .experience-heading-sub-text {
     font-size: 25px;
   }
@@ -182,4 +186,4 @@
     line-height: normal;
     text-align: center;
   }
-} */
+}

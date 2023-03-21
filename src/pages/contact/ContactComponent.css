@@ -40,7 +40,8 @@
 
 .profile-pic {
   box-shadow: 0 5px 15px #353535;
-  border-radius: 400px;
+  border-radius: 300px;
+  width: 80%;
 }
 
 .blog-heading-img-div {
@@ -50,6 +51,7 @@
 
 .contact-heading-text-div {
   text-align: center;
+  padding-top: 10%;
 }
 
 .blog-heading-text-div {

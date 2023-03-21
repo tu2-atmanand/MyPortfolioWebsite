@@ -1,3 +1,7 @@
+/*
+
+
+
 .degree-card {
   display: flex;
   width: 100%;
@@ -195,6 +199,7 @@
   }
 }
 
+*/
 
 
 
@@ -203,7 +208,10 @@
 
 
 
-/* .experience-card {
+/* Original Code : */
+
+
+.experience-card {
   width: 100%;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -280,23 +288,23 @@
   font-family: "Google Sans Regular";
 }
 
-.experience-card-company > a {
+.experience-card-company>a {
   position: relative;
   color: #8c8c8c;
   text-decoration: none;
 }
 
-.experience-card-company > a:hover {
+.experience-card-company>a:hover {
   color: #8c8c8c;
 }
 
-.experience-card-company > a:hover:before {
+.experience-card-company>a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-.experience-card-company > a:before {
+.experience-card-company>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -322,8 +330,7 @@
     width: 100px;
   }
 
-  .experience-card-body-div {
-  }
+  .experience-card-body-div {}
 
   .experience-card-heading-left {
     float: center;
@@ -352,16 +359,16 @@
 
   .experience-card-location {
     /* text-align: left; */
-/* text-align: center;
-}
+    /* text-align: center; */
+  }
 
-.experience-card-header-div {
-  flex-direction: column;
-}
+  .experience-card-header-div {
+    flex-direction: column;
+  }
 
-.experience-card-description {
-  margin-left: 14px;
-  margin-right: 14px;
-  text-align: justify;
+  .experience-card-description {
+    margin-left: 14px;
+    margin-right: 14px;
+    text-align: justify;
+  }
 }
-} */

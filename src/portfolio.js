@@ -274,28 +274,28 @@ const degrees = {
   degrees: [
     {
       title: "Goa College of Engineering",
-      subtitle: "Bachelor in Electronics and Telecommunication",
+      subtitle: "Electronics and Telecommunication",
       logo_path: "ssec.png",
       alt_name: "SSEC",
       duration: "2020 - 2024",
       descriptions: [
         "⚡ I'm currently pursuing my bachelors degree in Electronics and Telecommunication.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have studied core subjects like Digital Signal Processing, Mobile Communication, VLSI",
+        "⚡ I have also completed various online courses for Python and Matlab Programming and Database Management on NPTEL and Corsera.",
+        "⚡ I have implemented several projects based on what I've leart under my ETC Course and software courses",
       ],
-      website_link: "http://www.gec.ac.in/", // TODO :
+      website_link: "http://www.gec.ac.in/",
     },
     {
       title: "GVM`s SNJA Higher Secondary School Ponda Goa",
-      subtitle: "Higher Secondary",
+      subtitle: "Science Stream",
       logo_path: "ssgandhy.png",
       alt_name: "SNJA",
       duration: "2018 - 2020",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I opted for Science stream during my HSSC with PCM and CS as core subjects.",
+        "⚡ I learnt C and C++ in the subject Computer Science, which cultivated my interest in Programming and encouraged me to do mini projects.",
+        "⚡ I answered JEE and GCET, my GCET rank was 50",
       ],
       website_link: "http://www.gvmssnja.org/",
     },
@@ -307,8 +307,9 @@ const certifications = {
     {
       title: "Google Cloud Ready Facilitator Program",
       subtitle: "Google Cloud Community",
-      logo_path: "mongo.png",
-      certificate_link: "",
+      logo_path: "GCFPlogo.png",
+      certificate_link:
+        "https://www.cloudskillsboost.google/public_profiles/6981ebcd-e540-4991-b067-697b500b201a",
       alt_name: "Google Cloud",
       // color_code: "#2AAFED ",
       color_code: "#47A048",
@@ -316,38 +317,40 @@ const certifications = {
     {
       title: "The Joy of computing using Python",
       subtitle: "NPTEL",
-      logo_path: "hackathon1.svg",
-      certificate_link: "",
+      logo_path: "NPTELlogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1rLKY9jtQasXTTqQDDCFheEkhqhAyPHDE/view?usp=share_link",
       alt_name: "NPTEL",
       color_code: "#E2405F",
     },
     {
       title: "Ethical Hacking",
       subtitle: "NPTEL",
-      logo_path: "mongo.png",
-      certificate_link: "",
+      logo_path: "NPTELlogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1F7PBtBhNRGum9lAzR-OBTP26-UMq5lqk/view?usp=sharing",
       alt_name: "NPTEL",
       // color_code: "#F6B808",
       color_code: "#47A048",
     },
-    // {
-    //   title: "Cyber Security & Cyber Forensics",
-    //   subtitle: "Workshop at IIT Bombay",
-    //   logo_path: "iit.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-    //   alt_name: "Workshop",
-    //   color_code: "#2AAFED",
-    // },
-    // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
-    // },
+    {
+      title: "Introduction to TCP/IP",
+      subtitle: "Corsera",
+      logo_path: "coursera_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/certificate/GAGXF6K47G5V",
+      alt_name: "Corsera",
+      color_code: "#2AAFED",
+    },
+    {
+      title: "Adobe XD Ultimate Guide",
+      subtitle: "Udemy",
+      logo_path: "UdemyLogo.png",
+      certificate_link:
+        "https://ude.my/UC-18c25840-d4fa-47d1-9792-a4da7d2a1f7f/",
+      alt_name: "Udemy",
+      color_code: "#fe0037",
+    },
     // {
     //   title: "Hack20",
     //   subtitle: "Flutter International Hackathon",
@@ -394,7 +397,7 @@ const experience = {
           title: "C++ Developer",
           company: "Pie Infocomm",
           company_url: "http://pieinfocomm.com/",
-          logo_path: "valora.jpg",
+          logo_path: "PIEinfocommLogo.png",
           duration: "March 2022 - April 2022",
           location: "Online",
           description:
@@ -441,7 +444,7 @@ const experience = {
           company:
             "Association of Electronics and Telecommunication Students (ASSETS) Council",
           company_url: "https://gecetc.in/",
-          logo_path: "bauddhikgeeks.png",
+          logo_path: "assets.png",
           duration: "Nov 2022 - Present",
           location: "Farmagudi",
           description:
@@ -452,7 +455,7 @@ const experience = {
           title: "IEEE Student Member",
           company: "IEEE",
           company_url: "https://ieee.com/",
-          logo_path: "cwoc.png",
+          logo_path: "IEEE_logo.png",
           duration: "Oct 2022 - Present",
           location: "",
           description:
@@ -542,7 +545,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "AtmanandProfilePic.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
