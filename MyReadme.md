@@ -4,11 +4,9 @@
 
 1. improve main logo font, and add portfolio below my name logo.
 2. Add the latest projects in projects page.
-3. In certificates add the links to the certificates.
-4. In the experince page, make each as to display like that in education page
-5. on main page change the heroku image.
-6. change the photos for certificates.
-7. In the ExperienceCard.css change the names for better readability. and corresponding in the ExperienceCard.js
+3. In the experince page, make each as to display like that in education page
+4. change the photos for certificates.
+5. In the ExperienceCard.css change the names for better readability. and corresponding in the ExperienceCard.js
 
 ### How to update Website
 
