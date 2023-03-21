@@ -565,7 +565,7 @@ const projects = {
       name: "Text_To_Speech",
       url: "https://github.com/tu2-atmanand/Text_To_Speech",
       description:
-        "This is my first Project on Github. I started this project to demonstrate and to keep as reference on how you can use Text to Speech functionality in any laguage you want. It encapculates multiple programmming language in which you can use this functionality",
+        "This is my first Project on Github. I started this project to demonstrate how to use Text to Speech functionality in various programming languages.",
       languages: [
         {
           name: "Python",
@@ -578,11 +578,11 @@ const projects = {
       ],
     },
     {
-      id: "1",
-      name: "DigitRecog",
-      url: "https://github.com/tu2-atmanand/DigitRecog",
+      id: "4",
+      name: "offy",
+      url: "https://github.com/tu2-atmanand/offy",
       description:
-        "An app using Machine Learnign model, to recognize the digit drawn on a cnavas. The project furhther going to include recogizing from a image and contineous format.",
+        "Completely Offline friendly Chatbot to give human like resposes / Assistant to do basic task on PC. If connected to internet can search for data and display in efficient way.",
       languages: [
         {
           name: "Python",
@@ -592,7 +592,7 @@ const projects = {
     },
     {
       id: "13",
-      name: "ExcaliDraw",
+      name: "ExcaliDraw-Native",
       url: "https://github.com/tu2-atmanand/excalidraw",
       description:
         "Virtual whiteboard for sketching hand-drawn like diagrams.<br>Collaborative and end-to-end encrypted.",
@@ -611,23 +611,19 @@ const projects = {
         },
       ],
     },
-    // {
-    //   id: "2",
-    //   name: "node-blockchain",
-    //   url: "https://github.com/harikanani/node-blockchain",
-    //   description:
-    //     "An analysis project to find the best Speech Recognizer to use in other projects. The Project now uses the Vosk Technology to implement this feature.",
-    //   languages: [
-    //     {
-    //       name: "NodeJS",
-    //       iconifyClass: "logos-react",
-    //     },
-    //     {
-    //       name: "TypeScript",
-    //       iconifyClass: "logos-typescript",
-    //     },
-    //   ],
-    // },
+    {
+      id: "2",
+      name: "AI_Bot",
+      url: "https://github.com/tu2-atmanand/AI_Bot",
+      description:
+        "An AI model for an friendly chatbot, to be used in my main project offfy.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
     {
       id: "2",
       name: "Speech_Recognition",
@@ -636,52 +632,41 @@ const projects = {
         "An analysis project to find the best Speech Recognizer to use in other projects. The Project now uses the Vosk Technology to implement this feature.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Python",
+          iconifyClass: "logos-python",
         },
+      ],
+    },
+    {
+      id: "1",
+      name: "DigitRecog",
+      url: "https://github.com/tu2-atmanand/DigitRecog",
+      description:
+        "An app using Machine Learnign model, to recognize the digit drawn on a cnavas. The project furhther going to include recogizing from a image and contineous format.",
+      languages: [
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Python",
+          iconifyClass: "logos-python",
         },
+      ],
+    },
+    {
+      id: "3",
+      name: "BlockChainWorkshop",
+      url: "https://github.com/tu2-atmanand/BlockChainWorkshop",
+      description:
+        "This project is the demonstration of creating a wallet on MetaMask, adding shardeum account to it. And making transaction on blockchain.",
+      languages: [
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "Solidity",
+          iconifyClass: "logos-solidity",
         },
       ],
     },
-    // {
-    //   id: "4",
-    //   name: "personal-portfolio",
-    //   url: "https://github.com/harikanani/personal-portfolio",
-    //   description:
-    //     "A simple command line interface based quiz app to know more about me :).",
-    //   languages: [
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //     {
-    //       name: "NodeJS",
-    //       iconifyClass: "logos-nodejs",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: "3",
-    //   name: "Bloggify",
-    //   url: "https://github.com/harikanani/Bloggify",
-    //   description: "A Simple REST API for Blog Application.",
-    //   languages: [
-    //     {
-    //       name: "NodeJS",
-    //       iconifyClass: "logos-nodejs",
-    //     },
-    //   ],
-    // },
     // {
     //   id: "4",
     //   name: "Stargazzers",
