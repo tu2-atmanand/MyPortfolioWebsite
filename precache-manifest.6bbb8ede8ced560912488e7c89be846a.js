@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da414490ca1afcd2b4827e64ba2f576c",
+    "revision": "d0a8c77d797e2f148c925b1497f9bda5",
     "url": "/MyPortfolioWebsite/index.html"
   },
   {
-    "revision": "9915a1c53840d720c8ad",
-    "url": "/MyPortfolioWebsite/static/css/main.85438fcf.chunk.css"
+    "revision": "2810581a5a542cc59ee7",
+    "url": "/MyPortfolioWebsite/static/css/main.6b2f2f49.chunk.css"
   },
   {
-    "revision": "84243e6441dbe11c76f9",
-    "url": "/MyPortfolioWebsite/static/js/2.0b626538.chunk.js"
+    "revision": "5165de7665280e217a0e",
+    "url": "/MyPortfolioWebsite/static/js/2.89218bca.chunk.js"
   },
   {
     "revision": "c21d579849576bf6a47550572ff70f62",
-    "url": "/MyPortfolioWebsite/static/js/2.0b626538.chunk.js.LICENSE.txt"
+    "url": "/MyPortfolioWebsite/static/js/2.89218bca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9915a1c53840d720c8ad",
-    "url": "/MyPortfolioWebsite/static/js/main.f9215dff.chunk.js"
+    "revision": "2810581a5a542cc59ee7",
+    "url": "/MyPortfolioWebsite/static/js/main.646d2b51.chunk.js"
   },
   {
     "revision": "1b5be19a55bea95d6e1c",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/MyPortfolioWebsite/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "4be90c2f5f2fadb258b9d3170e6b95f5",
+    "url": "/MyPortfolioWebsite/static/media/AtmanandProfilePic.4be90c2f.jpg"
+  },
+  {
+    "revision": "99703053a553e93173584b4ad890497b",
+    "url": "/MyPortfolioWebsite/static/media/GCFPlogo.99703053.png"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -52,28 +60,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolioWebsite/static/media/GoogleSans-Regular.b5c77a6a.ttf"
   },
   {
+    "revision": "a65bea919314d31914b56eb78febc9c4",
+    "url": "/MyPortfolioWebsite/static/media/IEEE_logo.a65bea91.png"
+  },
+  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/MyPortfolioWebsite/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "074c759bcddffa259a562604f23085a0",
-    "url": "/MyPortfolioWebsite/static/media/bauddhikgeeks-transparent.074c759b.png"
+    "revision": "49e19499d3759936e2b5059611e08622",
+    "url": "/MyPortfolioWebsite/static/media/NPTELlogo.49e19499.png"
   },
   {
-    "revision": "f2d490dc98d16b9d7939e8006d0debb7",
-    "url": "/MyPortfolioWebsite/static/media/bauddhikgeeks.f2d490dc.png"
+    "revision": "f51c9c55a3a609e0d03d5e363a16a8f9",
+    "url": "/MyPortfolioWebsite/static/media/UdemyLogo.f51c9c55.png"
   },
   {
-    "revision": "a1051a228140c97862ba9a7f321c92b6",
-    "url": "/MyPortfolioWebsite/static/media/buld.a1051a22.jpg"
+    "revision": "cb228f0879360849b030aa69b4ba1730",
+    "url": "/MyPortfolioWebsite/static/media/assets.cb228f08.png"
   },
   {
     "revision": "404ae7bc061a03e399daa61344c78566",
     "url": "/MyPortfolioWebsite/static/media/cwoc.404ae7bc.png"
-  },
-  {
-    "revision": "82473004d117a65c8ed30396c6299763",
-    "url": "/MyPortfolioWebsite/static/media/efi.82473004.png"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -152,24 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolioWebsite/static/media/googleAssistant.0c8a4c11.jpg"
   },
   {
-    "revision": "3d9465c3483dffb591b31f101699d0dc",
-    "url": "/MyPortfolioWebsite/static/media/gtu.3d9465c3.png"
-  },
-  {
     "revision": "f7288055334eeee2693e025ee2a8a8ee",
     "url": "/MyPortfolioWebsite/static/media/hackathon1.f7288055.svg"
-  },
-  {
-    "revision": "afce7c7558ee0e523df3e94fd8be359b",
-    "url": "/MyPortfolioWebsite/static/media/harikrushn.afce7c75.jpg"
-  },
-  {
-    "revision": "36d7942a201d6e2b83b55876e8433ccf",
-    "url": "/MyPortfolioWebsite/static/media/iit.36d7942a.png"
-  },
-  {
-    "revision": "ccf886614a9c68f209d3e95c2626dd99",
-    "url": "/MyPortfolioWebsite/static/media/ino.ccf88661.png"
   },
   {
     "revision": "847873a85df8045d1d51cc6cf9cc97d7",
@@ -184,16 +176,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolioWebsite/static/media/mlh-logo.bc5cfd3a.svg"
   },
   {
-    "revision": "53dd27a8801e3a4216b9c9e217dfc7d0",
-    "url": "/MyPortfolioWebsite/static/media/mlh.53dd27a8.png"
-  },
-  {
     "revision": "d324ee17433678f2c32e57198b98c6db",
     "url": "/MyPortfolioWebsite/static/media/mongo.d324ee17.png"
-  },
-  {
-    "revision": "5dcd18d03068fbd9edeeb5003b21998a",
-    "url": "/MyPortfolioWebsite/static/media/nightowls.5dcd18d0.jpg"
   },
   {
     "revision": "22f11067f2d745aaceb51e485720635d",
@@ -216,11 +200,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolioWebsite/static/media/ssgandhy.8fd92f55.png"
   },
   {
-    "revision": "246ad3ede6a55b0102afa9871cfcbf21",
-    "url": "/MyPortfolioWebsite/static/media/valora.246ad3ed.jpg"
-  },
-  {
-    "revision": "02fdae4350ca45cabdc9c40cc11efc2a",
-    "url": "/MyPortfolioWebsite/static/media/wrighter.02fdae43.jpg"
+    "revision": "afce7c7558ee0e523df3e94fd8be359b",
+    "url": "/MyPortfolioWebsite/static/media/temp.afce7c75.jpg"
   }
 ]);
