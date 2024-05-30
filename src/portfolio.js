@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Software Developer, Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1MiE9TIrkEpis69CQ7xXLd1AoTP6f48rn/view?usp=share_link",
+    "https://github.com/tu2-atmanand/MyPortfolioWebsite/blob/main/src/assests/Atmanand_Resume_Certificate.pdf",
   mail: "mailto:sanketgauns8@gmail.com",
 };
 
