@@ -4,7 +4,7 @@ An portfolio webiste created using React JS. This project can be used as an temp
 
 # Sections
 
-This portfolio wensite contains the following tabs :
+This portfolio website contains the following tabs :
 
 - Home
 - Education and Certificates
