@@ -39,7 +39,7 @@ function Education(props) {
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
       </div>
-      <Footer theme={props.theme} />
+      {/* <Footer theme={props.theme} /> */}
     </div>
   );
 }

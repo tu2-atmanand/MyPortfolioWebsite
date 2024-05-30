@@ -1,0 +1,39 @@
+.HomePage {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderArea {
+    width: 20vw;
+    position: sticky;
+    z-index: 20;
+}
+
+.MainContent {
+    width: calc(80vw - 2rem);
+    /* margin-left: calc(20vw + 2rem); */
+    padding: 1rem;
+    /* overflow-y: auto; */
+}
+
+
+
+@media (max-width: 768px) {
+
+    .HomePage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .HeaderArea {
+        width: 100vw;
+    }
+
+    .MainContent {
+        width: 100%;
+        padding: 1rem;
+        overflow-y: auto;
+    }
+}

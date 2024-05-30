@@ -100,10 +100,13 @@
 
 
 .experience-main {
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
 }
 
 .basic-experience {
+  width: calc(80vw - 2rem);
   margin-left: 5%;
   margin-right: 5%;
 }

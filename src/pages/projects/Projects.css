@@ -1,18 +1,24 @@
 .projects-main {
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
+.ProjectPageMainContent {
+  width: calc(80vw - 2rem);
+}
+
 .basic-projects {
-  margin-left: 5%;
-  margin-right: 5%;
+  width: calc(80vw - 2rem);
+  margin-top: 5%;
 }
 
 .projects-heading-div {
   display: flex;
 }
 
-.projects-heading-div > * {
+.projects-heading-div>* {
   flex: 1;
 }
 
@@ -25,7 +31,7 @@
   text-align: center;
 }
 
-.projects-heading-img-div > * {
+.projects-heading-img-div>* {
   max-width: 100%;
   height: auto;
 }
@@ -69,6 +75,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .projects-heading-sub-text {
     font-size: 25px;
   }

@@ -7,6 +7,7 @@ import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
+import Header from "./components/header/Header";
 
 function App() {
   useEffect(() => {
@@ -28,10 +29,14 @@ function App() {
         <div>
           {useCursor ? (
             <CursorProvider color={themes[theme].secondaryText}>
+              {/* <Header theme={themes[theme]} setTheme={setTheme} /> */}
               <Main theme={themes[theme]} setTheme={setTheme} />
             </CursorProvider>
           ) : (
-            <Main theme={themes[theme]} setTheme={setTheme} />
+            <>
+              {/* <Header theme={themes[theme]} setTheme={setTheme} /> */}
+              <Main theme={themes[theme]} setTheme={setTheme} />
+            </>
           )}
         </div>
       </>
