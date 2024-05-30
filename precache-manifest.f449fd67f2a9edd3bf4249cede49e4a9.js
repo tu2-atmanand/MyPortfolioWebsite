@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0a8c77d797e2f148c925b1497f9bda5",
+    "revision": "1b2b4135803bd30d188a5583abfb4122",
     "url": "/MyPortfolioWebsite/index.html"
   },
   {
-    "revision": "2810581a5a542cc59ee7",
+    "revision": "2f525c1e34b0ef67212c",
     "url": "/MyPortfolioWebsite/static/css/main.6b2f2f49.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolioWebsite/static/js/2.89218bca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2810581a5a542cc59ee7",
-    "url": "/MyPortfolioWebsite/static/js/main.646d2b51.chunk.js"
+    "revision": "2f525c1e34b0ef67212c",
+    "url": "/MyPortfolioWebsite/static/js/main.303c9e57.chunk.js"
   },
   {
     "revision": "1b5be19a55bea95d6e1c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolioWebsite/static/media/Agustina.21f233e1.woff"
   },
   {
-    "revision": "4be90c2f5f2fadb258b9d3170e6b95f5",
-    "url": "/MyPortfolioWebsite/static/media/AtmanandProfilePic.4be90c2f.jpg"
+    "revision": "4b83af07dc51fa2924e2782dca37f503",
+    "url": "/MyPortfolioWebsite/static/media/AtmanandProfilePic.4b83af07.jpg"
   },
   {
     "revision": "99703053a553e93173584b4ad890497b",
